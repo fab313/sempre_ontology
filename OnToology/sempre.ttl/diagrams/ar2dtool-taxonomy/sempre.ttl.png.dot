@@ -1,0 +1,14 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "a73ea2f7af3d8a04cf1b544af566b371" "ns0:Subsidiary" "ns0:Order" "ae8e0c88eb788f56d98b39c3118183f6" "ns0:CreativeAgency" "ns0:Headquarters" "ns0:AccountingOffice" "ns0:Factory" "ns0:Laboratory" "ns0:Distributor" "ns0:Company" ; /*classes style*/
+	"ns0:Distributor" -> "ns0:Subsidiary" [ label = "rdfs:subClassOf" ];
+	"ns0:Headquarters" -> "ns0:Subsidiary" [ label = "rdfs:subClassOf" ];
+	"ns0:Laboratory" -> "ns0:Subsidiary" [ label = "rdfs:subClassOf" ];
+	"ns0:Factory" -> "ns0:Subsidiary" [ label = "rdfs:subClassOf" ];
+	"ns0:AccountingOffice" -> "ns0:Subsidiary" [ label = "rdfs:subClassOf" ];
+	"ns0:Order" -> "ae8e0c88eb788f56d98b39c3118183f6" [ label = "rdfs:subClassOf" ];
+	"ns0:CreativeAgency" -> "ns0:Subsidiary" [ label = "rdfs:subClassOf" ];
+	"ns0:Company" -> "a73ea2f7af3d8a04cf1b544af566b371" [ label = "rdfs:subClassOf" ];
+
+}

@@ -1,0 +1,117 @@
+{
+  "@context" : {
+    "is-controlled-by" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by",
+      "@type" : "@id"
+    },
+    "Order" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order"
+    },
+    "processes" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes",
+      "@type" : "@id"
+    },
+    "Thing" : {
+      "@id" : "http://www.w3.org/2002/07/owl#Thing"
+    },
+    "DepartmentHead" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#DepartmentHead"
+    },
+    "is-part-of" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of",
+      "@type" : "@id"
+    },
+    "SmallCompany" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#SmallCompany"
+    },
+    "Manufacturer" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manufacturer"
+    },
+    "prepares" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#prepares",
+      "@type" : "@id"
+    },
+    "Subsidiary" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"
+    },
+    "has-part" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part",
+      "@type" : "@id"
+    },
+    "employs" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs",
+      "@type" : "@id"
+    },
+    "ResearchFacility" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#ResearchFacility"
+    },
+    "Headquarters" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters"
+    },
+    "topObjectProperty" : {
+      "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty",
+      "@type" : "@id"
+    },
+    "BigCompany" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BigCompany"
+    },
+    "Contractor" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Contractor"
+    },
+    "Executive" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Executive"
+    },
+    "Company" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"
+    },
+    "CreativeAgency" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency"
+    },
+    "Section" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section"
+    },
+    "is-processed-by" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by",
+      "@type" : "@id"
+    },
+    "AccountingOffice" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice"
+    },
+    "Laboratory" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory"
+    },
+    "Employee" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"
+    },
+    "controls" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls",
+      "@type" : "@id"
+    },
+    "BranchManager" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BranchManager"
+    },
+    "Distributor" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor"
+    },
+    "Researcher" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Researcher"
+    },
+    "Manager" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manager"
+    },
+    "Advisor" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Advisor"
+    },
+    "Factory" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory"
+    },
+    "is-prepared-by" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by",
+      "@type" : "@id"
+    },
+    "is-employed-by" : {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by",
+      "@type" : "@id"
+    }
+  }
+}

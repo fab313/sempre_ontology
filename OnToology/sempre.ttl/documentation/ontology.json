@@ -1,0 +1,901 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order"
+  } ]
+}, {
+  "@id" : "_:genid11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"
+    }, {
+      "@id" : "_:genid14"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid14",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid15"
+  } ]
+}, {
+  "@id" : "_:genid15",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"
+    }, {
+      "@id" : "_:genid17"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid17",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "2"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes"
+  } ]
+}, {
+  "@id" : "_:genid2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"
+    }, {
+      "@id" : "_:genid4"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid20",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section"
+  } ]
+}, {
+  "@id" : "_:genid21",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid28"
+    }, {
+      "@id" : "_:genid26"
+    }, {
+      "@id" : "_:genid23"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid23",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid24"
+  } ]
+}, {
+  "@id" : "_:genid24",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"
+  } ]
+}, {
+  "@id" : "_:genid26",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid29",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid30",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BigCompany"
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"
+    }, {
+      "@id" : "_:genid35"
+    }, {
+      "@id" : "_:genid33"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid33",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "10"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs"
+  } ]
+}, {
+  "@id" : "_:genid35",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory"
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid41"
+    }, {
+      "@id" : "_:genid39"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid39",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#minQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "10"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs"
+  } ]
+}, {
+  "@id" : "_:genid41",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "_:genid42",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"
+    }, {
+      "@id" : "_:genid44"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid44",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory"
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid51"
+    }, {
+      "@id" : "_:genid48"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid48",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "_:genid49"
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory"
+  } ]
+}, {
+  "@id" : "_:genid51",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory"
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"
+  } ]
+}, {
+  "@id" : "_:genid53",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"
+    }, {
+      "@id" : "_:genid55"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#maxQualifiedCardinality" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#nonNegativeInteger",
+    "@value" : "4"
+  } ],
+  "http://www.w3.org/2002/07/owl#onClass" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"
+  } ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs"
+  } ]
+}, {
+  "@id" : "_:genid57",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#unionOf" : [ {
+    "@list" : [ {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"
+  } ]
+}, {
+  "@id" : "_:genid65",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointClasses" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#intersectionOf" : [ {
+    "@list" : [ {
+      "@id" : "_:genid11"
+    }, {
+      "@id" : "_:genid9"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid72",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Alice"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Brian"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CA1"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Cindy"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Daniel"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Emma"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee1"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee10"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee11"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee12"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee2"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee3"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee4"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee5"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee6"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee7"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee8"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee9"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Fred"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Gaby"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#H1"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Howard"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Ivy"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S3"
+    }, {
+      "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S4"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Restriction" ],
+  "http://www.w3.org/2002/07/owl#onProperty" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by"
+  } ],
+  "http://www.w3.org/2002/07/owl#someValuesFrom" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#Thing"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1"
+  }, {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Advisor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Alice",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BigCompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid2"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BranchManager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid6"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Brian",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company" ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company" ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CA1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Cindy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid7"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Contractor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid12"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Daniel",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#DepartmentHead",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid20"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Emma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid21"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee11",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee12",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee5",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee6",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee8",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee9",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Executive",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid29"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Fred",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Gaby",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#H1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Howard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Ivy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manager",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid30"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manufacturer",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid31"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1"
+  }, {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1"
+  } ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid37"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#ResearchFacility",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid42"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Researcher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid46"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section" ],
+  "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid52"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#SmallCompany",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid53"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "_:genid64"
+  } ],
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "_:genid57"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#TransitiveProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#prepares"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#prepares",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+}, {
+  "@id" : "http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.w3.org/2002/07/owl#topObjectProperty"
+  } ]
+} ]

@@ -1,0 +1,674 @@
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#InverseFunctionalProperty> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#FunctionalProperty> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#TransitiveProperty> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#prepares> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by> <http://www.w3.org/2002/07/owl#inverseOf> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#prepares
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#prepares> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#prepares> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topObjectProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Advisor
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Advisor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Advisor> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid1 .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> .
+_:genid1 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BigCompany
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BigCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BigCompany> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid4 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs> .
+_:genid4 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "10"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid4 <http://www.w3.org/2002/07/owl#onClass> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BranchManager
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BranchManager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BranchManager> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid6 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> .
+_:genid6 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid7 .
+_:genid7 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid11 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs> .
+_:genid11 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid9 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by> .
+_:genid9 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Contractor
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Contractor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Contractor> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid12 .
+_:genid12 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid14 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part> .
+_:genid14 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid15 .
+_:genid15 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid18 .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid16 .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid17 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes> .
+_:genid17 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "2"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid17 <http://www.w3.org/2002/07/owl#onClass> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#DepartmentHead
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#DepartmentHead> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#DepartmentHead> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid20 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> .
+_:genid20 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid21 <http://www.w3.org/2002/07/owl#unionOf> _:genid27 .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid28 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> .
+_:genid28 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid26 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> .
+_:genid26 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid23 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> .
+_:genid23 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid24 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> .
+_:genid24 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Executive
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Executive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Executive> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid29 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> .
+_:genid29 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manager
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manager> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manager> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid30 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> .
+_:genid30 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BigCompany> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manufacturer
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manufacturer> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid31 .
+_:genid31 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid35 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part> .
+_:genid35 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid33 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs> .
+_:genid33 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "10"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid33 <http://www.w3.org/2002/07/owl#onClass> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid37 .
+_:genid37 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid41 .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid41 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by> .
+_:genid41 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2002/07/owl#Thing> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid39 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by> .
+_:genid39 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#ResearchFacility
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#ResearchFacility> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#ResearchFacility> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid42 .
+_:genid42 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid45 .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company> .
+_:genid45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid43 .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid44 .
+_:genid44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid44 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part> .
+_:genid44 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory> .
+_:genid43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Researcher
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Researcher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Researcher> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid46 .
+_:genid46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid46 <http://www.w3.org/2002/07/owl#unionOf> _:genid50 .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid51 .
+_:genid51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid51 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> .
+_:genid51 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory> .
+_:genid50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid47 .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid48 .
+_:genid48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid48 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> .
+_:genid48 <http://www.w3.org/2002/07/owl#someValuesFrom> _:genid49 .
+_:genid49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid49 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> .
+_:genid49 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory> .
+_:genid47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid52 .
+_:genid52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid52 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> .
+_:genid52 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#SmallCompany
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#SmallCompany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#SmallCompany> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid53 .
+_:genid53 <http://www.w3.org/2002/07/owl#intersectionOf> _:genid56 .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company> .
+_:genid56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid54 .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid55 .
+_:genid55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid55 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs> .
+_:genid55 <http://www.w3.org/2002/07/owl#maxQualifiedCardinality> "4"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid55 <http://www.w3.org/2002/07/owl#onClass> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+_:genid54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> <http://www.w3.org/2002/07/owl#equivalentClass> _:genid57 .
+_:genid57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+_:genid57 <http://www.w3.org/2002/07/owl#unionOf> _:genid63 .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice> .
+_:genid63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid62 .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency> .
+_:genid62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid61 .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor> .
+_:genid61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid60 .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory> .
+_:genid60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid59 .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters> .
+_:genid59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid58 .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory> .
+_:genid58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid64 .
+_:genid64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:genid64 <http://www.w3.org/2002/07/owl#onProperty> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> .
+_:genid64 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Alice
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Alice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Alice> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Brian
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Brian> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Brian> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CA1
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CA1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CA1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CA1> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Cindy
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Cindy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Cindy> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Daniel
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Daniel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Daniel> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Emma
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Emma> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Emma> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee1
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee1> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee10
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee10> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee11
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee11> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee11> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee12
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee12> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee12> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee2
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee2> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee3
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee3> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee4
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee4> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee5
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee5> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee5> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee6
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee6> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee6> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee7
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee7> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee7> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee8
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee8> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee8> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee9
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee9> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee9> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Fred
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Fred> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Fred> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Gaby
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Gaby> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Gaby> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#H1
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#H1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#H1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#H1> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Howard
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Howard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Howard> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Ivy
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Ivy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Ivy> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S3
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S3> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1> .
+# 
+# http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S4
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S4> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section> .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S4> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid65 <http://www.w3.org/2002/07/owl#members> _:genid71 .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice> .
+_:genid71 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid70 .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency> .
+_:genid70 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid69 .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor> .
+_:genid69 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid68 .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory> .
+_:genid68 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid67 .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters> .
+_:genid67 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid66 .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory> .
+_:genid66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+_:genid72 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDifferent> .
+_:genid72 <http://www.w3.org/2002/07/owl#distinctMembers> _:genid109 .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1> .
+_:genid109 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid108 .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2> .
+_:genid108 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid107 .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Alice> .
+_:genid107 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid106 .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Brian> .
+_:genid106 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid105 .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1> .
+_:genid105 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid104 .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2> .
+_:genid104 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid103 .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CA1> .
+_:genid103 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid102 .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Cindy> .
+_:genid102 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid101 .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1> .
+_:genid101 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid100 .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Daniel> .
+_:genid100 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid99 .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Emma> .
+_:genid99 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid98 .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee1> .
+_:genid98 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid97 .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee10> .
+_:genid97 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid96 .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee11> .
+_:genid96 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid95 .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee12> .
+_:genid95 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid94 .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee2> .
+_:genid94 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid93 .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee3> .
+_:genid93 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid92 .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee4> .
+_:genid92 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid91 .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee5> .
+_:genid91 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid90 .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee6> .
+_:genid90 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid89 .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee7> .
+_:genid89 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid88 .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee8> .
+_:genid88 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid87 .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee9> .
+_:genid87 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid86 .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1> .
+_:genid86 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid85 .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Fred> .
+_:genid85 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid84 .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Gaby> .
+_:genid84 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid83 .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#H1> .
+_:genid83 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid82 .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Howard> .
+_:genid82 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid81 .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Ivy> .
+_:genid81 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid80 .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1> .
+_:genid80 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid79 .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1> .
+_:genid79 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid78 .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2> .
+_:genid78 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid77 .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3> .
+_:genid77 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid76 .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1> .
+_:genid76 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid75 .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2> .
+_:genid75 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid74 .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S3> .
+_:genid74 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid73 .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S4> .
+_:genid73 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+# 
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/

@@ -1,0 +1,959 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#"
+     xml:base="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:company_1227328="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#">
+    <owl:Ontology rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#prepares"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#prepares -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#prepares">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes -->
+
+
+    <owl:ObjectProperty rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice">
+        <rdfs:subClassOf rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Advisor -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Advisor">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls"/>
+                <owl:someValuesFrom rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BigCompany -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BigCompany">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BranchManager -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BranchManager">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls"/>
+                <owl:someValuesFrom rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Contractor -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Contractor">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part"/>
+                        <owl:someValuesFrom>
+                            <owl:Class>
+                                <owl:intersectionOf rdf:parseType="Collection">
+                                    <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"/>
+                                    <owl:Restriction>
+                                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes"/>
+                                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:minQualifiedCardinality>
+                                        <owl:onClass rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order"/>
+                                    </owl:Restriction>
+                                </owl:intersectionOf>
+                            </owl:Class>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency">
+        <rdfs:subClassOf rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#DepartmentHead -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#DepartmentHead">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls"/>
+                <owl:someValuesFrom rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor">
+        <rdfs:subClassOf rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by"/>
+                        <owl:someValuesFrom rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of"/>
+                                <owl:someValuesFrom rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Executive -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Executive">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory">
+        <rdfs:subClassOf rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters">
+        <rdfs:subClassOf rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory">
+        <rdfs:subClassOf rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manager -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manager">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls"/>
+                <owl:someValuesFrom rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BigCompany"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manufacturer -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manufacturer">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part"/>
+                        <owl:someValuesFrom rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs"/>
+                        <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">10</owl:minQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by"/>
+                        <owl:someValuesFrom rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#ResearchFacility -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#ResearchFacility">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part"/>
+                        <owl:someValuesFrom rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Researcher -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Researcher">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by"/>
+                        <owl:someValuesFrom rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by"/>
+                        <owl:someValuesFrom>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of"/>
+                                <owl:someValuesFrom rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory"/>
+                            </owl:Restriction>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of"/>
+                <owl:someValuesFrom rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#SmallCompany -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#SmallCompany">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs"/>
+                        <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">4</owl:maxQualifiedCardinality>
+                        <owl:onClass rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+    </owl:Class>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary -->
+
+
+    <owl:Class rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice"/>
+                    <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency"/>
+                    <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor"/>
+                    <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory"/>
+                    <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters"/>
+                    <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory"/>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of"/>
+                <owl:someValuesFrom rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice"/>
+        <is-part-of rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+        <processes rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1"/>
+        <processes rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice"/>
+        <is-part-of rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Alice -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Alice">
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Brian -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Brian">
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CA1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CA1">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency"/>
+        <is-part-of rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Cindy -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Cindy">
+        <controls rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor"/>
+        <is-part-of rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Daniel -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Daniel">
+        <controls rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Emma -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Emma">
+        <controls rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee1">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee10 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee10">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee11 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee11">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee12 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee12">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee2">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee3">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee4">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee5 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee5">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee6 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee6">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee7 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee7">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee8 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee8">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee9 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee9">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee"/>
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory"/>
+        <is-part-of rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Fred -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Fred">
+        <controls rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Gaby -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Gaby">
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#H1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#H1">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters"/>
+        <is-part-of rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Howard -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Howard">
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Ivy -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Ivy">
+        <is-employed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory"/>
+        <is-part-of rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order"/>
+        <is-prepared-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order"/>
+        <is-prepared-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1"/>
+        <is-prepared-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order"/>
+        <is-prepared-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1"/>
+        <is-processed-by rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section"/>
+        <is-part-of rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section"/>
+        <is-part-of rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S3">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section"/>
+        <is-part-of rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S4 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S4">
+        <rdf:type rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section"/>
+        <is-part-of rdf:resource="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Alice"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Brian"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CA1"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Cindy"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Daniel"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Emma"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee1"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee10"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee11"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee12"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee2"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee3"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee4"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee5"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee6"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee7"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee8"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee9"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Fred"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Gaby"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#H1"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Howard"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Ivy"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S3"/>
+            <rdf:Description rdf:about="http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S4"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/ -->
+
+

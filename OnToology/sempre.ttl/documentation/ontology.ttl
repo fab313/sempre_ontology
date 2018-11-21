@@ -1,0 +1,594 @@
+@prefix : <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl> .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls
+:controls rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          owl:inverseOf :is-controlled-by ;
+          rdf:type owl:InverseFunctionalProperty .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs
+:employs rdf:type owl:ObjectProperty ;
+         rdfs:subPropertyOf owl:topObjectProperty ;
+         owl:inverseOf :is-employed-by .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part
+:has-part rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty ;
+          owl:inverseOf :is-part-of ;
+          rdf:type owl:TransitiveProperty .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by
+:is-controlled-by rdf:type owl:ObjectProperty ;
+                  rdfs:subPropertyOf owl:topObjectProperty ;
+                  rdf:type owl:FunctionalProperty .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by
+:is-employed-by rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of
+:is-part-of rdf:type owl:ObjectProperty ;
+            rdfs:subPropertyOf owl:topObjectProperty ;
+            rdf:type owl:TransitiveProperty .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by
+:is-prepared-by rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                owl:inverseOf :prepares .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by
+:is-processed-by rdf:type owl:ObjectProperty ;
+                 rdfs:subPropertyOf owl:topObjectProperty ;
+                 owl:inverseOf :processes .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#prepares
+:prepares rdf:type owl:ObjectProperty ;
+          rdfs:subPropertyOf owl:topObjectProperty .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes
+:processes rdf:type owl:ObjectProperty ;
+           rdfs:subPropertyOf owl:topObjectProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice
+:AccountingOffice rdf:type owl:Class ;
+                  rdfs:subClassOf :Subsidiary .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Advisor
+:Advisor rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :controls ;
+                               owl:someValuesFrom :Order
+                             ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BigCompany
+:BigCompany rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( :Company
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :employs ;
+                                                         owl:minQualifiedCardinality "10"^^xsd:nonNegativeInteger ;
+                                                         owl:onClass :Employee
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BranchManager
+:BranchManager rdf:type owl:Class ;
+               owl:equivalentClass [ rdf:type owl:Restriction ;
+                                     owl:onProperty :controls ;
+                                     owl:someValuesFrom :Subsidiary
+                                   ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company
+:Company rdf:type owl:Class ;
+         rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                  owl:onProperty :employs ;
+                                                  owl:someValuesFrom owl:Thing
+                                                ]
+                                                [ rdf:type owl:Restriction ;
+                                                  owl:onProperty :is-controlled-by ;
+                                                  owl:someValuesFrom owl:Thing
+                                                ]
+                                              ) ;
+                           rdf:type owl:Class
+                         ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Contractor
+:Contractor rdf:type owl:Class ;
+            owl:equivalentClass [ owl:intersectionOf ( :Company
+                                                       [ rdf:type owl:Restriction ;
+                                                         owl:onProperty :has-part ;
+                                                         owl:someValuesFrom [ owl:intersectionOf ( :Subsidiary
+                                                                                                   [ rdf:type owl:Restriction ;
+                                                                                                     owl:onProperty :processes ;
+                                                                                                     owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+                                                                                                     owl:onClass :Order
+                                                                                                   ]
+                                                                                                 ) ;
+                                                                              rdf:type owl:Class
+                                                                            ]
+                                                       ]
+                                                     ) ;
+                                  rdf:type owl:Class
+                                ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency
+:CreativeAgency rdf:type owl:Class ;
+                rdfs:subClassOf :Subsidiary .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#DepartmentHead
+:DepartmentHead rdf:type owl:Class ;
+                owl:equivalentClass [ rdf:type owl:Restriction ;
+                                      owl:onProperty :controls ;
+                                      owl:someValuesFrom :Section
+                                    ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor
+:Distributor rdf:type owl:Class ;
+             rdfs:subClassOf :Subsidiary .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee
+:Employee rdf:type owl:Class ;
+          owl:equivalentClass [ rdf:type owl:Class ;
+                                owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                owl:onProperty :controls ;
+                                                owl:someValuesFrom owl:Thing
+                                              ]
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty :is-employed-by ;
+                                                owl:someValuesFrom :Company
+                                              ]
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty :is-employed-by ;
+                                                owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                     owl:onProperty :is-part-of ;
+                                                                     owl:someValuesFrom :Company
+                                                                   ]
+                                              ]
+                                            )
+                              ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Executive
+:Executive rdf:type owl:Class ;
+           owl:equivalentClass [ rdf:type owl:Restriction ;
+                                 owl:onProperty :controls ;
+                                 owl:someValuesFrom owl:Thing
+                               ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory
+:Factory rdf:type owl:Class ;
+         rdfs:subClassOf :Subsidiary .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters
+:Headquarters rdf:type owl:Class ;
+              rdfs:subClassOf :Subsidiary .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory
+:Laboratory rdf:type owl:Class ;
+            rdfs:subClassOf :Subsidiary .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manager
+:Manager rdf:type owl:Class ;
+         owl:equivalentClass [ rdf:type owl:Restriction ;
+                               owl:onProperty :controls ;
+                               owl:someValuesFrom :BigCompany
+                             ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manufacturer
+:Manufacturer rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( :Company
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty :has-part ;
+                                                           owl:someValuesFrom :Factory
+                                                         ]
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty :employs ;
+                                                           owl:minQualifiedCardinality "10"^^xsd:nonNegativeInteger ;
+                                                           owl:onClass :Employee
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order
+:Order rdf:type owl:Class ;
+       rdfs:subClassOf [ owl:intersectionOf ( [ rdf:type owl:Restriction ;
+                                                owl:onProperty :is-controlled-by ;
+                                                owl:someValuesFrom owl:Thing
+                                              ]
+                                              [ rdf:type owl:Restriction ;
+                                                owl:onProperty :is-processed-by ;
+                                                owl:someValuesFrom :Subsidiary
+                                              ]
+                                            ) ;
+                         rdf:type owl:Class
+                       ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#ResearchFacility
+:ResearchFacility rdf:type owl:Class ;
+                  owl:equivalentClass [ owl:intersectionOf ( :Company
+                                                             [ rdf:type owl:Restriction ;
+                                                               owl:onProperty :has-part ;
+                                                               owl:someValuesFrom :Laboratory
+                                                             ]
+                                                           ) ;
+                                        rdf:type owl:Class
+                                      ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Researcher
+:Researcher rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Class ;
+                                  owl:unionOf ( [ rdf:type owl:Restriction ;
+                                                  owl:onProperty :is-employed-by ;
+                                                  owl:someValuesFrom :Laboratory
+                                                ]
+                                                [ rdf:type owl:Restriction ;
+                                                  owl:onProperty :is-employed-by ;
+                                                  owl:someValuesFrom [ rdf:type owl:Restriction ;
+                                                                       owl:onProperty :is-part-of ;
+                                                                       owl:someValuesFrom :Laboratory
+                                                                     ]
+                                                ]
+                                              )
+                                ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section
+:Section rdf:type owl:Class ;
+         rdfs:subClassOf [ rdf:type owl:Restriction ;
+                           owl:onProperty :is-part-of ;
+                           owl:someValuesFrom :Subsidiary
+                         ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#SmallCompany
+:SmallCompany rdf:type owl:Class ;
+              owl:equivalentClass [ owl:intersectionOf ( :Company
+                                                         [ rdf:type owl:Restriction ;
+                                                           owl:onProperty :employs ;
+                                                           owl:maxQualifiedCardinality "4"^^xsd:nonNegativeInteger ;
+                                                           owl:onClass :Employee
+                                                         ]
+                                                       ) ;
+                                    rdf:type owl:Class
+                                  ] .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary
+:Subsidiary rdf:type owl:Class ;
+            owl:equivalentClass [ rdf:type owl:Class ;
+                                  owl:unionOf ( :AccountingOffice
+                                                :CreativeAgency
+                                                :Distributor
+                                                :Factory
+                                                :Headquarters
+                                                :Laboratory
+                                              )
+                                ] ;
+            rdfs:subClassOf [ rdf:type owl:Restriction ;
+                              owl:onProperty :is-part-of ;
+                              owl:someValuesFrom :Company
+                            ] .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1
+:A1 rdf:type owl:NamedIndividual ,
+             :AccountingOffice ;
+    :is-part-of :C1 ;
+    :processes :O1 ,
+               :O2 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A2
+:A2 rdf:type owl:NamedIndividual ,
+             :AccountingOffice ;
+    :is-part-of :C2 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Alice
+:Alice rdf:type owl:NamedIndividual ;
+       :is-employed-by :S1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Brian
+:Brian rdf:type owl:NamedIndividual ;
+       :is-employed-by :S1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C1
+:C1 rdf:type owl:NamedIndividual ,
+             :Company .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#C2
+:C2 rdf:type owl:NamedIndividual ,
+             :Company .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CA1
+:CA1 rdf:type owl:NamedIndividual ,
+              :CreativeAgency ;
+     :is-part-of :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Cindy
+:Cindy rdf:type owl:NamedIndividual ;
+       :controls :A2 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#D1
+:D1 rdf:type owl:NamedIndividual ,
+             :Distributor ;
+    :is-part-of :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Daniel
+:Daniel rdf:type owl:NamedIndividual ;
+        :controls :S2 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Emma
+:Emma rdf:type owl:NamedIndividual ;
+      :controls :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee1
+:Employee1 rdf:type owl:NamedIndividual ,
+                    :Employee ;
+           :is-employed-by :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee10
+:Employee10 rdf:type owl:NamedIndividual ,
+                     :Employee ;
+            :is-employed-by :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee11
+:Employee11 rdf:type owl:NamedIndividual ,
+                     :Employee ;
+            :is-employed-by :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee12
+:Employee12 rdf:type owl:NamedIndividual ,
+                     :Employee ;
+            :is-employed-by :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee2
+:Employee2 rdf:type owl:NamedIndividual ,
+                    :Employee ;
+           :is-employed-by :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee3
+:Employee3 rdf:type owl:NamedIndividual ,
+                    :Employee ;
+           :is-employed-by :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee4
+:Employee4 rdf:type owl:NamedIndividual ,
+                    :Employee ;
+           :is-employed-by :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee5
+:Employee5 rdf:type owl:NamedIndividual ,
+                    :Employee ;
+           :is-employed-by :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee6
+:Employee6 rdf:type owl:NamedIndividual ,
+                    :Employee ;
+           :is-employed-by :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee7
+:Employee7 rdf:type owl:NamedIndividual ,
+                    :Employee ;
+           :is-employed-by :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee8
+:Employee8 rdf:type owl:NamedIndividual ,
+                    :Employee ;
+           :is-employed-by :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee9
+:Employee9 rdf:type owl:NamedIndividual ,
+                    :Employee ;
+           :is-employed-by :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#F1
+:F1 rdf:type owl:NamedIndividual ,
+             :Factory ;
+    :is-part-of :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Fred
+:Fred rdf:type owl:NamedIndividual ;
+      :controls :O3 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Gaby
+:Gaby rdf:type owl:NamedIndividual ;
+      :is-employed-by :C2 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#H1
+:H1 rdf:type owl:NamedIndividual ,
+             :Headquarters ;
+    :is-part-of :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Howard
+:Howard rdf:type owl:NamedIndividual ;
+        :is-employed-by :C2 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Ivy
+:Ivy rdf:type owl:NamedIndividual ;
+     :is-employed-by :C2 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#L1
+:L1 rdf:type owl:NamedIndividual ,
+             :Laboratory ;
+    :is-part-of :C1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O1
+:O1 rdf:type owl:NamedIndividual ,
+             :Order ;
+    :is-prepared-by :L1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O2
+:O2 rdf:type owl:NamedIndividual ,
+             :Order ;
+    :is-prepared-by :F1 ,
+                    :L1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#O3
+:O3 rdf:type owl:NamedIndividual ,
+             :Order ;
+    :is-prepared-by :A1 ;
+    :is-processed-by :A2 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S1
+:S1 rdf:type owl:NamedIndividual ,
+             :Section ;
+    :is-part-of :L1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S2
+:S2 rdf:type owl:NamedIndividual ,
+             :Section ;
+    :is-part-of :L1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S3
+:S3 rdf:type owl:NamedIndividual ,
+             :Section ;
+    :is-part-of :D1 .
+
+
+###  http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#S4
+:S4 rdf:type owl:NamedIndividual ,
+             :Section ;
+    :is-part-of :D1 .
+
+
+#################################################################
+#    General axioms
+#################################################################
+
+[ rdf:type owl:AllDisjointClasses ;
+  owl:members ( :AccountingOffice
+                :CreativeAgency
+                :Distributor
+                :Factory
+                :Headquarters
+                :Laboratory
+              )
+] .
+
+
+[ rdf:type owl:AllDifferent ;
+  owl:distinctMembers ( :A1
+                        :A2
+                        :Alice
+                        :Brian
+                        :C1
+                        :C2
+                        :CA1
+                        :Cindy
+                        :D1
+                        :Daniel
+                        :Emma
+                        :Employee1
+                        :Employee10
+                        :Employee11
+                        :Employee12
+                        :Employee2
+                        :Employee3
+                        :Employee4
+                        :Employee5
+                        :Employee6
+                        :Employee7
+                        :Employee8
+                        :Employee9
+                        :F1
+                        :Fred
+                        :Gaby
+                        :H1
+                        :Howard
+                        :Ivy
+                        :L1
+                        :O1
+                        :O2
+                        :O3
+                        :S1
+                        :S2
+                        :S3
+                        :S4
+                      )
+] .
+
+
+###  Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/
