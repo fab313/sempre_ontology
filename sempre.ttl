@@ -279,6 +279,10 @@ ns0:Employee10
   a owl:NamedIndividual, ns0:Employee ;
   ns0:is-employed-by ns0:C1 .
 
+ns0:Employee11
+  a owl:NamedIndividual, ns0:Employee ;
+  ns0:is-employed-by ns0:C1 .
+
 ns0:Employee2
   a owl:NamedIndividual, ns0:Employee ;
   ns0:is-employed-by ns0:C1 .
@@ -493,6 +497,7 @@ _:genid55
    ns0:Emma
    ns0:Employee1
    ns0:Employee10
+   ns0:Employee11
    ns0:Employee2
    ns0:Employee3
    ns0:Employee4
