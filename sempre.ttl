@@ -1,3 +1,518 @@
-@prefix ex: <http://example.com/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix ns0: <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-ex:s a ex:o .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl> a owl:Ontology .
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls>
+  a owl:ObjectProperty, owl:InverseFunctionalProperty ;
+  rdfs:subPropertyOf owl:topObjectProperty ;
+  owl:inverseOf <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by> .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#employs>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf owl:topObjectProperty ;
+  owl:inverseOf <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by> .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#has-part>
+  a owl:ObjectProperty, owl:TransitiveProperty ;
+  rdfs:subPropertyOf owl:topObjectProperty ;
+  owl:inverseOf <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-controlled-by>
+  a owl:ObjectProperty, owl:FunctionalProperty ;
+  rdfs:subPropertyOf owl:topObjectProperty .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-employed-by>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf owl:topObjectProperty .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of>
+  a owl:ObjectProperty, owl:TransitiveProperty ;
+  rdfs:subPropertyOf owl:topObjectProperty .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-prepared-by>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf owl:topObjectProperty ;
+  owl:inverseOf <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#prepares> .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-processed-by>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf owl:topObjectProperty ;
+  owl:inverseOf <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes> .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#prepares>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf owl:topObjectProperty .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#processes>
+  a owl:ObjectProperty ;
+  rdfs:subPropertyOf owl:topObjectProperty .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Advisor>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Restriction ;
+    owl:onProperty <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> ;
+    owl:someValuesFrom <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order>
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BigCompany>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Class ;
+    owl:intersectionOf (
+     <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company>
+     _:genid4
+   )
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BranchManager>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Restriction ;
+    owl:onProperty <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> ;
+    owl:someValuesFrom <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary>
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company>
+  a owl:Class ;
+  rdfs:subClassOf [
+    a owl:Class ;
+    owl:intersectionOf (
+     _:genid8
+     _:genid10
+   )
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Contractor>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Class ;
+    owl:intersectionOf (
+     <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company>
+     _:genid14
+   )
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#DepartmentHead>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Restriction ;
+    owl:onProperty <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> ;
+    owl:someValuesFrom <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section>
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Employee>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Class ;
+    owl:unionOf (
+     _:genid22
+     _:genid24
+     _:genid26
+   )
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Executive>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Restriction ;
+    owl:onProperty <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> ;
+    owl:someValuesFrom owl:Thing
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory>
+  a owl:Class ;
+  rdfs:subClassOf <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary> .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manager>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Restriction ;
+    owl:onProperty <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#controls> ;
+    owl:someValuesFrom <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#BigCompany>
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Manufacturer>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Class ;
+    owl:intersectionOf (
+     <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company>
+     _:genid33
+     _:genid35
+   )
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Order>
+  a owl:Class ;
+  rdfs:subClassOf [
+    a owl:Class ;
+    owl:intersectionOf (
+     _:genid38
+     _:genid40
+   )
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#ResearchFacility>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Class ;
+    owl:intersectionOf (
+     <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company>
+     _:genid44
+   )
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Researcher>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Class ;
+    owl:unionOf (
+     _:genid47
+     _:genid49
+   )
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Section>
+  a owl:Class ;
+  rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> ;
+    owl:someValuesFrom <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary>
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#SmallCompany>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Class ;
+    owl:intersectionOf (
+     <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company>
+     _:genid55
+   )
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Subsidiary>
+  a owl:Class ;
+  owl:equivalentClass [
+    a owl:Class ;
+    owl:unionOf (
+     <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice>
+     <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#CreativeAgency>
+     <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Distributor>
+     <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Factory>
+     <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Headquarters>
+     <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Laboratory>
+   )
+  ] ;
+  rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#is-part-of> ;
+    owl:someValuesFrom <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#Company>
+  ] .
+
+<http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#A1>
+  a owl:NamedIndividual, <http://www.kr.tuwien.ac.at/ontologies/2017W/company_1227328.owl#AccountingOffice> ;
+  ns0:is-part-of ns0:C1 ;
+  ns0:processes ns0:O1, ns0:O2 .
+
+ns0:A2
+  a owl:NamedIndividual, ns0:AccountingOffice ;
+  ns0:is-part-of ns0:C2 .
+
+ns0:Alice
+  a owl:NamedIndividual ;
+  ns0:is-employed-by ns0:S1 .
+
+ns0:Brian
+  a owl:NamedIndividual ;
+  ns0:is-employed-by ns0:S1 .
+
+ns0:C1 a owl:NamedIndividual, ns0:Company .
+ns0:C2 a owl:NamedIndividual, ns0:Company .
+ns0:CA1
+  a owl:NamedIndividual, ns0:CreativeAgency ;
+  ns0:is-part-of ns0:C1 .
+
+ns0:Cindy
+  a owl:NamedIndividual ;
+  ns0:controls ns0:A2 .
+
+ns0:D1
+  a owl:NamedIndividual, ns0:Distributor ;
+  ns0:is-part-of ns0:C1 .
+
+ns0:Daniel
+  a owl:NamedIndividual ;
+  ns0:controls ns0:S2 .
+
+ns0:Emma
+  a owl:NamedIndividual ;
+  ns0:controls ns0:C1 .
+
+ns0:Employee1
+  a owl:NamedIndividual, ns0:Employee ;
+  ns0:is-employed-by ns0:C1 .
+
+ns0:Employee10
+  a owl:NamedIndividual, ns0:Employee ;
+  ns0:is-employed-by ns0:C1 .
+
+ns0:Employee2
+  a owl:NamedIndividual, ns0:Employee ;
+  ns0:is-employed-by ns0:C1 .
+
+ns0:Employee3
+  a owl:NamedIndividual, ns0:Employee ;
+  ns0:is-employed-by ns0:C1 .
+
+ns0:Employee4
+  a owl:NamedIndividual, ns0:Employee ;
+  ns0:is-employed-by ns0:C1 .
+
+ns0:Employee5
+  a owl:NamedIndividual, ns0:Employee ;
+  ns0:is-employed-by ns0:C1 .
+
+ns0:Employee6
+  a owl:NamedIndividual, ns0:Employee ;
+  ns0:is-employed-by ns0:C1 .
+
+ns0:Employee7
+  a owl:NamedIndividual, ns0:Employee ;
+  ns0:is-employed-by ns0:C1 .
+
+ns0:Employee8
+  a owl:NamedIndividual, ns0:Employee ;
+  ns0:is-employed-by ns0:C1 .
+
+ns0:Employee9
+  a owl:NamedIndividual, ns0:Employee ;
+  ns0:is-employed-by ns0:C1 .
+
+ns0:F1
+  a owl:NamedIndividual, ns0:Factory ;
+  ns0:is-part-of ns0:C1 .
+
+ns0:Fred
+  a owl:NamedIndividual ;
+  ns0:controls ns0:O3 .
+
+ns0:Gaby
+  a owl:NamedIndividual ;
+  ns0:is-employed-by ns0:C2 .
+
+ns0:H1
+  a owl:NamedIndividual, ns0:Headquarters ;
+  ns0:is-part-of ns0:C1 .
+
+ns0:Howard
+  a owl:NamedIndividual ;
+  ns0:is-employed-by ns0:C2 .
+
+ns0:Ivy
+  a owl:NamedIndividual ;
+  ns0:is-employed-by ns0:C2 .
+
+ns0:L1
+  a owl:NamedIndividual, ns0:Laboratory ;
+  ns0:is-part-of ns0:C1 .
+
+ns0:O1
+  a owl:NamedIndividual, ns0:Order ;
+  ns0:is-prepared-by ns0:L1 .
+
+ns0:O2
+  a owl:NamedIndividual, ns0:Order ;
+  ns0:is-prepared-by ns0:F1, ns0:L1 .
+
+ns0:O3
+  a owl:NamedIndividual, ns0:Order ;
+  ns0:is-prepared-by ns0:A1 ;
+  ns0:is-processed-by ns0:A2 .
+
+ns0:S1
+  a owl:NamedIndividual, ns0:Section ;
+  ns0:is-part-of ns0:L1 .
+
+ns0:S2
+  a owl:NamedIndividual, ns0:Section ;
+  ns0:is-part-of ns0:L1 .
+
+ns0:S3
+  a owl:NamedIndividual, ns0:Section ;
+  ns0:is-part-of ns0:D1 .
+
+ns0:S4
+  a owl:NamedIndividual, ns0:Section ;
+  ns0:is-part-of ns0:D1 .
+
+_:genid4
+  a owl:Restriction ;
+  owl:onProperty ns0:employs ;
+  owl:minQualifiedCardinality "10"^^xsd:nonNegativeInteger ;
+  owl:onClass ns0:Employee .
+
+_:genid8
+  a owl:Restriction ;
+  owl:onProperty ns0:employs ;
+  owl:someValuesFrom owl:Thing .
+
+_:genid10
+  a owl:Restriction ;
+  owl:onProperty ns0:is-controlled-by ;
+  owl:someValuesFrom owl:Thing .
+
+_:genid14
+  a owl:Restriction ;
+  owl:onProperty ns0:has-part ;
+  owl:someValuesFrom [
+    a owl:Class ;
+    owl:intersectionOf (
+     ns0:Subsidiary
+     _:genid18
+   )
+  ] .
+
+_:genid18
+  a owl:Restriction ;
+  owl:onProperty ns0:processes ;
+  owl:minQualifiedCardinality "2"^^xsd:nonNegativeInteger ;
+  owl:onClass ns0:Order .
+
+_:genid22
+  a owl:Restriction ;
+  owl:onProperty ns0:controls ;
+  owl:someValuesFrom owl:Thing .
+
+_:genid24
+  a owl:Restriction ;
+  owl:onProperty ns0:is-employed-by ;
+  owl:someValuesFrom ns0:Company .
+
+_:genid26
+  a owl:Restriction ;
+  owl:onProperty ns0:is-employed-by ;
+  owl:someValuesFrom [
+    a owl:Restriction ;
+    owl:onProperty ns0:is-part-of ;
+    owl:someValuesFrom ns0:Company
+  ] .
+
+_:genid33
+  a owl:Restriction ;
+  owl:onProperty ns0:has-part ;
+  owl:someValuesFrom ns0:Factory .
+
+_:genid35
+  a owl:Restriction ;
+  owl:onProperty ns0:employs ;
+  owl:minQualifiedCardinality "10"^^xsd:nonNegativeInteger ;
+  owl:onClass ns0:Employee .
+
+_:genid38
+  a owl:Restriction ;
+  owl:onProperty ns0:is-controlled-by ;
+  owl:someValuesFrom owl:Thing .
+
+_:genid40
+  a owl:Restriction ;
+  owl:onProperty ns0:is-processed-by ;
+  owl:someValuesFrom ns0:Subsidiary .
+
+_:genid44
+  a owl:Restriction ;
+  owl:onProperty ns0:has-part ;
+  owl:someValuesFrom ns0:Laboratory .
+
+_:genid47
+  a owl:Restriction ;
+  owl:onProperty ns0:is-employed-by ;
+  owl:someValuesFrom ns0:Laboratory .
+
+_:genid49
+  a owl:Restriction ;
+  owl:onProperty ns0:is-employed-by ;
+  owl:someValuesFrom [
+    a owl:Restriction ;
+    owl:onProperty ns0:is-part-of ;
+    owl:someValuesFrom ns0:Laboratory
+  ] .
+
+_:genid55
+  a owl:Restriction ;
+  owl:onProperty ns0:employs ;
+  owl:maxQualifiedCardinality "4"^^xsd:nonNegativeInteger ;
+  owl:onClass ns0:Employee .
+
+[]
+  a owl:AllDisjointClasses ;
+  owl:members (
+   ns0:AccountingOffice
+   ns0:CreativeAgency
+   ns0:Distributor
+   ns0:Factory
+   ns0:Headquarters
+   ns0:Laboratory
+ ) .
+
+[]
+  a owl:AllDifferent ;
+  owl:distinctMembers (
+   ns0:A1
+   ns0:A2
+   ns0:Alice
+   ns0:Brian
+   ns0:C1
+   ns0:C2
+   ns0:CA1
+   ns0:Cindy
+   ns0:D1
+   ns0:Daniel
+   ns0:Emma
+   ns0:Employee1
+   ns0:Employee10
+   ns0:Employee2
+   ns0:Employee3
+   ns0:Employee4
+   ns0:Employee5
+   ns0:Employee6
+   ns0:Employee7
+   ns0:Employee8
+   ns0:Employee9
+   ns0:F1
+   ns0:Fred
+   ns0:Gaby
+   ns0:H1
+   ns0:Howard
+   ns0:Ivy
+   ns0:L1
+   ns0:O1
+   ns0:O2
+   ns0:O3
+   ns0:S1
+   ns0:S2
+   ns0:S3
+   ns0:S4
+ ) .
